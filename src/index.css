@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sunburst-blue {
+  background: radial-gradient(circle at 50% 35%, #58B4FF 0%, #1F87F5 55%, #0F6CE0 100%);
+}
+
+.sunburst-rays-blue {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 255, 255, 0.08) 0deg 10deg,
+    transparent 10deg 20deg
+  );
+  animation: spinSlow 45s linear infinite;
+}
+
+.sunburst-orange {
+  background: radial-gradient(circle at 50% 45%, #F59E0B 0%, #D96B27 65%, #B85014 100%);
+}
+
+.sunburst-rays-orange {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(255, 255, 255, 0.09) 0deg 10deg,
+    transparent 10deg 20deg
+  );
+  animation: spinSlow 50s linear infinite;
+}

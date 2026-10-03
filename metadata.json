@@ -1,0 +1,8 @@
+{
+  "name": "Arrow Puzzle",
+  "description": "An interlocking directional arrow puzzle game featuring infinite solvable levels, daily challenges, and global tournament leaderboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
